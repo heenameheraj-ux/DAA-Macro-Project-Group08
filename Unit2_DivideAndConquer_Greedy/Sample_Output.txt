@@ -1,0 +1,29 @@
+===== GREEDY JOB SEQUENCING =====
+Enter number of jobs: 5
+
+Enter job details:
+
+Job 1
+Enter Job ID: J1
+Enter Deadline: 2
+Enter Profit: 100
+
+Job 2
+Enter Job ID: J2
+Enter Deadline: 1
+Enter Profit: 19
+
+Job 3
+Enter Job ID: J3
+Enter Deadline: 2
+Enter Profit: 27
+
+Job 4
+Enter Job ID: J4
+Enter Deadline: 1
+Enter Profit: 25
+
+Job 5
+Enter Job ID: J5
+Enter Deadline: 3
+Enter Profit: 15

@@ -1,0 +1,20 @@
+# Algorithm / Pseudocode
+## Greedy Job Sequencing with Deadlines and Profits
+
+1. Start.
+2. Store each job with its job ID, deadline, and profit.
+3. Sort all jobs in decreasing order of profit.
+4. Find the maximum deadline among all jobs.
+5. Create empty time slots from 1 to the maximum deadline.
+6. For each job in sorted order:
+   a. Start checking from the job's deadline.
+   b. Move backward through the available slots.
+   c. If an empty slot is found, place the job in that slot.
+   d. Add the job's profit to the total profit.
+   e. If no slot is available, skip the job.
+7. Display the selected job schedule.
+8. Display the maximum total profit.
+9. Stop.
+
+## Greedy Choice
+At every step, the algorithm considers the remaining job with the highest profit first and places it in the latest available slot before its deadline.

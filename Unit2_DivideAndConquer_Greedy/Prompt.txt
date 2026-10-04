@@ -1,0 +1,16 @@
+Create a clear academic flow diagram for the Greedy Job Sequencing with Deadlines and Profits algorithm.
+
+Show the following decision process:
+1. Start.
+2. Input jobs with job ID, deadline, and profit.
+3. Sort jobs in decreasing order of profit.
+4. Select the next highest-profit job.
+5. Check whether a time slot is available on or before its deadline.
+6. If YES, schedule the job in the latest available slot and add its profit.
+7. If NO, reject/skip the job.
+8. Check whether more jobs remain.
+9. If YES, select the next job and repeat.
+10. If NO, display the final schedule and maximum total profit.
+11. End.
+
+Use standard flowchart symbols, clear arrows, readable labels, and a professional DAA-project style. Highlight the YES and NO decision branches clearly. Use the example jobs J1, J2, J3, J4, J5 only if it improves clarity.
