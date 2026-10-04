@@ -1,0 +1,1 @@
+Illustrate backtracking steps for coloring a 4-vertex graph using 3 colors. Show the color assignment process, validity checks for adjacent vertices, backtracking when a color assignment is not possible, and the final result using a clear flowchart.

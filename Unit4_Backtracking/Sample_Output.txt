@@ -1,0 +1,6 @@
+Output : 
+Valid coloring found!
+Vertex 1 -> Color 1
+Vertex 2 -> Color 2
+Vertex 3 -> Color 3
+Vertex 4 -> Color 1

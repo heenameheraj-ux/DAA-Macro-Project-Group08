@@ -1,0 +1,28 @@
+GRAPH COLORING USING BACKTRACKING
+
+Algorithm:
+
+1. Start with the first uncolored vertex.
+
+2. Try each of the 3 available colors.
+
+3. Check whether the selected color is valid.
+   The color must not be the same as the color
+   of any adjacent vertex.
+
+4. If the color is valid:
+   - Assign the color to the vertex.
+   - Move to the next vertex.
+
+5. If all vertices are colored:
+   - Return SUCCESS.
+
+6. If no color is valid for the current vertex:
+   - Remove the previous color.
+   - Backtrack to the previous vertex.
+   - Try another color.
+
+7. Repeat the process until a valid coloring is found
+   or all possibilities are exhausted.
+
+8. Stop.
