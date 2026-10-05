@@ -1,0 +1,49 @@
+Create a professional DAA visualization for the Traveling Salesperson Problem (TSP) using Least-Cost Branch and Bound for 4 cities: A, B, C, and D.
+
+Use the following cost matrix:
+
+      A   B   C   D
+A     0  10  15  20
+B    10   0  35  25
+C    15  35   0  30
+D    20  25  30   0
+
+Create a hierarchical search tree starting from city A.
+
+Show the following branches and their lower bounds:
+
+A -> B       Bound = 80
+A -> C       Bound = 80
+A -> D       Bound = 90
+
+A -> B -> C  Bound = 95
+A -> B -> D  Bound = 80
+
+A -> C -> B  Bound = 95
+A -> C -> D  Bound = 80
+
+A -> B -> D -> C  Bound = 80
+A -> C -> D -> B  Bound = 80
+
+Show that the complete tour
+A -> B -> D -> C -> A
+has total cost 80 and becomes the current best solution.
+
+Clearly mark the branches that are pruned after the best cost becomes 80:
+
+A -> C -> D -> B  (Bound = 80)
+A -> D             (Bound = 90)
+A -> B -> C        (Bound = 95)
+A -> C -> B        (Bound = 95)
+
+Use different visual indicators for:
+- Search/branch nodes
+- Bound values
+- The selected least-cost path
+- The final optimal tour
+- Pruned nodes/branches
+
+Use a clean academic style suitable for a Design and Analysis of Algorithms project presentation. Make the tree easy to read and ensure all city names, paths, bound values, and pruning labels are clearly visible.
+
+Title the visualization:
+"TSP using Least-Cost Branch and Bound — Search Tree"
