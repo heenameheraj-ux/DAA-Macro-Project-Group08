@@ -3,6 +3,25 @@
 ## Description
 This project implements the Traveling Salesperson Problem (TSP) using Dynamic Programming for four cities.
 
+## Input Distance Matrix
+
+| City | A | B | C | D |
+|---|---:|---:|---:|---:|
+| A | 0 | 10 | 15 | 20 |
+| B | 10 | 0 | 35 | 25 |
+| C | 15 | 35 | 0 | 30 |
+| D | 20 | 25 | 30 | 0 |
+
+## How to Run
+
+Ensure Python 3 is installed. Run the following command from the project folder:
+
+```bash
+python Project7_TSP_DP.py
+```
+
+The program displays the minimum-cost tour and sample Dynamic Programming states.
+
 ## Objective
 Find the minimum-cost tour that visits every city exactly once and returns to the starting city A.
 
