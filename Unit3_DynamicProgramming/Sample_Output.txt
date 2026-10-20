@@ -1,0 +1,19 @@
+TSP using Dynamic Programming
+-----------------------------
+Cities: A -> B -> C -> D
+Minimum tour: A -> B -> D -> C -> A
+Minimum tour cost: 80
+\nSample DP states (current city, visited set, minimum remaining cost):
+  (A, {A}) -> 80
+  (B, {A, B}) -> 70
+  (C, {A, C}) -> 65
+  (D, {A, D}) -> 75
+  (B, {A, B, C}) -> 45
+  (C, {A, B, C}) -> 50
+  (B, {A, B, D}) -> 50
+  (D, {A, B, D}) -> 45
+  (C, {A, C, D}) -> 45
+  (D, {A, C, D}) -> 35
+  (B, {A, B, C, D}) -> 10
+  (C, {A, B, C, D}) -> 15
+  (D, {A, B, C, D}) -> 20

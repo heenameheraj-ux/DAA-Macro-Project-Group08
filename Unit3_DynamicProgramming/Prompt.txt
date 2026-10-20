@@ -1,0 +1,8 @@
+AI Visualization Prompt — Unit III, Project 7
+Create a clean educational visualization for the Traveling Salesperson Problem solved using Dynamic Programming for four cities A, B, C, and D. Use this symmetric distance matrix:
+A: 0, 10, 15, 20
+B: 10, 0, 35, 25
+C: 15, 35, 0, 30
+D: 20, 25, 30, 0
+
+Show (1) the weighted graph of the four cities, (2) how a DP state is represented as (current city, visited-city subset), (3) a small example of the recurrence dp(current, mask) = min(distance[current][next] + dp(next, mask including next)), and (4) the optimal tour and total cost. Clearly label the starting city A and the return to A. Keep all labels readable and ensure the cost values match the matrix. This is an educational algorithm diagram, not a decorative poster.
