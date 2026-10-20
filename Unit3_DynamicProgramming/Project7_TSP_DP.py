@@ -96,7 +96,7 @@ def main():
     print("Cities:", " -> ".join(CITIES))
     print("Minimum tour:", " -> ".join(route))
     print("Minimum tour cost:", minimum_cost)
-    print("\\nSample DP states (current city, visited set, minimum remaining cost):")
+    print("\nSample DP states (current city, visited set, minimum remaining cost):")
     for current, mask, visited, cost in states:
         print(f"  ({current}, {visited}) -> {cost}")
 
